@@ -1,0 +1,132 @@
+body{
+background-color: black;
+margin:0 px;
+color: white;
+height: 2000px;
+
+
+}
+.bodyline{
+	height: 1800px;
+	width: 1067px;
+	position: absolute;
+	z-index: -1;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) ;
+    margin-top: 75%;
+	background: linear-gradient(to top, #242323, #000000);
+	opacity: 0.5;
+}
+.aa{
+font-family: 'MuseoModerno', cursive;
+color: white;
+text-align: center;
+margin-top: 0px;
+    margin-block-start: auto;
+    font-size: 40px;
+    height: 45px;
+}
+.ab{
+	height: 45px;
+	font-family: 'Orbitron', sans-serif;
+/*font-family: 'Notable', sans-serif;*/
+	text-align: center;
+	color: white;
+}
+.menu{
+font-family: 'Orbitron', sans-serif;
+word-spacing: 80px;
+text-align: center;
+height: 30px;
+}
+.block1{
+	margin-left: 10%;
+    margin-right: 10%;
+height:400px;
+background-image: url(https://sun3-10.userapi.com/irsW3_vbVu0JSOAlz4bilObigD3CMgd1zsggQg/kNb3qBePX5s.jpg);
+background-size: contain;
+/*border:3px double white;*/
+
+font-family: 'Orbitron', sans-serif;
+}
+.ba{
+font-size:20px;
+text-align: center;
+padding-top: 10%;
+}
+.bab{text-align: center;
+	box-shadow: -3px 16px 60px 19px rgba(0,0,0,1);
+
+	background-color: rgba(0,0,0,1);}
+	
+.button{
+color: red;
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 47%;
+	width: 70px;
+	  -webkit-transition: all 0.3s ease;;
+  -moz-transition: all 0.3s ease;;
+  -o-transition: all 0.3s ease;;
+  transition: all 0.3s ease;    
+	
+}
+.button:hover {
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(3);
+        box-shadow: 0 0 20px 19px rgb(0, 0, 1);
+      background-color: black;
+}
+
+
+#foto{
+	margin-top: 13%;
+	height: 900px;
+	margin-right: 10%;
+	margin-left:10%;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr ;
+grid-template-rows: 3fr 3fr 1fr 3fr 3fr 1fr ;
+	grid-template-areas: "a a ab ab"
+						 "a a ab ab"
+						 ". . . . "
+						 "ba ba b b"
+						 "ba ba b b";
+}
+#foto>#up_pik{
+	background-image:url(https://steamuserimages-a.akamaihd.net/ugc/915801999161135297/6F8EE2F048F64E556BAA4AB143448C3C0CC8B500/);
+	grid-area: a;
+
+}
+#foto>#down_pik{
+	background-image:url(https://media1.tenor.com/images/0a8eac087d2258bc6471cf849f4961d8/tenor.gif?itemid=10537940);
+background-repeat: no-repeat;
+background-size: cover;
+grid-area: b;
+
+}
+#foto>#down_text{
+	grid-area: ba;
+	margin-left: 2%;
+
+}
+#foto>#up_text{
+grid-area: ab;
+margin-left: 3%;
+}
+
+.animate__fadeInUp{
+
+	
+    --animate-duration: 2s;
+}
+
+
+
+
+
+
+
+
